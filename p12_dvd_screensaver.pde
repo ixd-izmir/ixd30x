@@ -1,6 +1,7 @@
-
-// ixd307f17 - week12 in class
 /*
+
+*
+* ixd307f17 | week12: in-class exercise
 
 Remember the famous DVD screensaver <https://www.youtube.com/watch?v=B6mtmlX7Vrw>
 ( Recap from "The Office": <https://www.youtube.com/watch?v=vhxXCHhh9H8>) which the DVD
@@ -54,7 +55,7 @@ void setup(){
 }
 
 void draw(){
-  background(200);
+  background(0);
   fill(c);
   rect(x, y, w, h, 8);
   x+= speedX;        
